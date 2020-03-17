@@ -13,7 +13,7 @@ Sub HW():
     k = 2
     
     Dim startPrice As Double, endPrice As Double
-    startPrice = ws.Cells(2, 6).Value
+    startPrice = ws.Cells(2, 3).Value
     
 
     Dim volumetotal As LongLong
@@ -50,7 +50,7 @@ Sub HW():
         
         k = k + 1
 
-        startPrice = ws.Cells(i + 1, 6).Value
+        startPrice = ws.Cells(i + 1, 3).Value
     
         volumetotal = 0
         
